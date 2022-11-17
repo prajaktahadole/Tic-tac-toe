@@ -8,6 +8,7 @@
 }
 
 .block {
+  background: rgb(175, 107, 196);
   height: 5rem;
   width: 5rem;
   display: flex;
@@ -18,10 +19,12 @@
   font-size: 4rem;
 }
 
+.block.clicked {
+  cursor: not-allowed;
+}
 
 .App {
   height: 100vh;
-  background: rgb(147, 192, 192);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,3 +37,4 @@
   justify-content: center;
   grid-gap: 5px;
 }
+
